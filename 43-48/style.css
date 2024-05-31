@@ -1,0 +1,59 @@
+/* div {
+    color: red;
+    font-size: 10px;
+    background-color: black;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transform: lower(0.5);
+    text-decoration: none;
+    animation: animation 5s infinite;
+}
+@keyframes animation {
+    100% {
+        color: yellow;
+        font-size: 30px;
+        background-color: green;
+        border: 2px solid yellow;
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        transform: lower(1);
+        text-decoration: underline;
+        word-spacing: 20px;
+    }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 50%; 
+    display: inline-flex;
+    justify-content: center;
+
+}
+img:hover {
+    cursor: pointer;
+}
+img:active {
+    transform: scale(0.3);
+} */
+
+
+
+
+
+/* .buttons {
+    display: inline-flex;
+    flex-direction: column;
+    width:60px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+} */
