@@ -3,8 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Assignment (6-9)</title>
+    <style>
+             body {
+            background-color: gray;
+            font-weight: 800;
+            display: grid;
+            grid-template-columns: 15vw  15vw;
+            justify-content: center;
+        }
+        
+        a:hover {
+            color: black;
+        }
+
+        a:active {
+            display: inline-block;
+            transition: all 0.5s ease;
+            border: none;
+            
+            &:active {
+                transform: translateY(5px);
+            }
+            
+        }
+
+        a {
+            display: inline-block;
+            font-size: 3vw;
+            color: rgb(19, 110, 229);
+            background-color: rgba(255, 255, 0, 0.756);
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px;
+            display: flex;
+        }
+    </style>
 </head>
 <body>
     <h1>
